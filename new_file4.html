@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/iconfont.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+		mui.plusReady(function () {
+			document.getElementById('tab5').addEventListener('tap',function(){
+				mui.openWindow({
+					url : 'new_file3.html',
+					id : 'new_file3.html'
+				})
+			})
+		})
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">配音大赛</h1>
+		<button type="button" class="mui-btn mui-btn-warning mui-pull-right">+</button>
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item ">
+			<span class="mui-icon iconfont icon-shouye"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a class="mui-tab-item mui-active">
+			<span class="mui-icon iconfont icon-yingyong1"></span>
+			<span class="mui-tab-label">活动</span>
+		</a>
+		<a class="mui-tab-item">
+			<span class="mui-icon iconfont icon-wode"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	<div class="mui-content">
+
+	<a id="tab1" style="margin:0px;">
+		<div class="mui-card-content" style="line-height: 0px;">
+			<img src="imgs/3.png" width="100%" />
+		</div>
+	</a>
+	<div class="mui-card" style="margin: 0px;">
+		<div class="mui-card-header" >
+			<button type="button" class="mui-btn mui-btn-gray" style="background-color:#F7F7F7;" id="tab5"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;活动简介 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</button>
+			<button type="button" class="mui-btn mui-btn-gray" style="background-color:#F7F7F7;"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;活动视频 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</button>
+		</div>
+		<div class="mui-card-content">
+			<div class="mui-row"style="padding-left: 10px;">
+		
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/1.jpg" width="95%" /></a>
+						<p>#冰雪奇缘 #四川话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/2.jpg"/width="95%"> </a> <p>#冰雪奇缘 #广东话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/3.jpg"/width="95%"> </a> <p>#冰雪奇缘 #安徽话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/4.jpg"/width="95%"> </a> <p>#冰雪奇缘 #陕西话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/5.jpg" width="95%" /></a>
+						<p>#冰雪奇缘 #东北话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/6.jpg"/width="95%"> </a> <p>#冰雪奇缘 #北京话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/2.jpg"/width="95%"> </a> <p>#冰雪奇缘 #上海话</p>
+					</li>
+				</div>
+				<div class="mui-col-xs-6">
+					<li class="mui-table-view">
+						<a><img src="imgs/3.jpg"/width="95%"> </a> <p>#冰雪奇缘 #浙江话</p>
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+
+</html>
